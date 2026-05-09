@@ -5,20 +5,6 @@ const sendBtn = document.getElementById("send-btn");
 
 
 
-function sendMessage() {
-  const text = input.value.trim();
-  if (text === "") return;
-
-  // Show user message
-  writeMessageToChat("You");
-  writeMessageToChat(text);
-
-  // Clear input
-  input.value = "";
-}
-
-
-
 function writeMessageToChat(data, sender = "assistant") {
   const chat = document.getElementById("chat-container");
 
