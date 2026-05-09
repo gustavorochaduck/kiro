@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  font-family: "Doto", sans-serif;
+  color: whitesmoke;
+}
+.chat-container {
+  padding: 3em;
+  margin-bottom: 5em;
+}
+.chat-container h1 {
+  color: rgb(180, 77, 180);
+}
+.input-area {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  color: whitesmoke;
+  backdrop-filter: blur(9px) saturate(200%);
+  -webkit-backdrop-filter: blur(9px) saturate(200%);
+  background-color: rgba(0, 0, 0, 0.58);
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.377);
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#user-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-family: "Doto", sans-serif;
+  font-size: 16px;
+  color: whitesmoke;
+  font-weight: 1000;
+  background-color: rgba(0, 0, 0, 0.58);
+  outline-style: none;
+}
+
+#send-btn {
+  padding: 10px 10px;
+  font-weight: 1000;
+  font-family: "Doto", sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 0;
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 12px;
+}
+#send-btn img {
+  filter: invert(1);
+  border-radius: 8px;
+}
+
+
+.user-title{
+    color:green;
+    text-align: left;
+}
