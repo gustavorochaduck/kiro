@@ -21,12 +21,12 @@ body {
   gap: 10px;
   padding: 10px;
   color: whitesmoke;
-  backdrop-filter: blur(9px) saturate(200%);
+  backdrop-filter: blur(1px) saturate(2%);
   -webkit-backdrop-filter: blur(9px) saturate(200%);
   background-color: rgba(0, 0, 0, 0.58);
   border-radius: 24px;
   border: 1px solid rgba(255, 255, 255, 0.377);
-  position: fixed;
+  position:fixed;
   bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
@@ -36,7 +36,7 @@ body {
   flex: 1;
   padding: 10px;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid rgba(255, 255, 255, .34);
   font-family: "Doto", sans-serif;
   font-size: 16px;
   color: whitesmoke;
@@ -51,7 +51,7 @@ body {
   font-family: "Doto", sans-serif;
   color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0);
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgba(255, 255, 255, .34);
   border-radius: 0;
   cursor: pointer;
   width: fit-content;

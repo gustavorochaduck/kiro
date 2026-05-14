@@ -8,8 +8,18 @@ def pesquisar_duck(pergunta):
 
 # Teste rápido
 
-a = input("Search: ")
-print(pesquisar_duck(a))
+# a = input("Search: ")
+# print(pesquisar_duck(a))
 
 #pip install ddgs
 
+import serpapi
+def search(userInput):
+    client = serpapi.Client(api_key="serapi_key")
+    return client.search({
+    "engine": "duckduckgo",
+    "q": userInput,
+    "kl": "us-en"
+    })
+
+print(search("How is Mateus Asato?"))
